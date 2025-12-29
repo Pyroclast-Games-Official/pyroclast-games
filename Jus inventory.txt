@@ -1,0 +1,17 @@
+fetch('data/inventory.json')
+  .then(res => res.json())
+  .then(items => {
+    const container = document.getElementById('inventory');
+    items.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'item';
+      div.innerHTML = `
+        <h3>${item.name}</h3>
+        <p>${item.system} - ${item.faction}</p>
+        <p>Condition: ${item.condition}</p>
+        <p>Price: $${item.price}</p>
+        <a class="button" href="mailto:Leobuisness79@gmail.com?subject=Purchase%20Request:%20${item.name}">Contact to Buy</a>
+      `;
+      container.appendChild(div);
+    });
+  });

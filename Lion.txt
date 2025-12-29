@@ -1,0 +1,12 @@
+[
+  {
+    "id": "lj-001",
+    "name": "Lionel Johnson",
+    "system": "Warhammer 40,000",
+    "faction": "Space Marines",
+    "condition": "NIB",
+    "price": 100,
+    "quantity": 1,
+    "status": "Available"
+  }
+]

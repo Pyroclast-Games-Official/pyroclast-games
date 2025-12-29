@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pyroclast Games</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Pyroclast Games</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="inventory.html">Inventory</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <h2>Warhammer Inventory</h2>
+    <p>Independent Warhammer seller. All items legally sourced. Contact to purchase.</p>
+    <a class="button" href="inventory.html">View Inventory</a>
+  </main>
+</body>
+</html>
